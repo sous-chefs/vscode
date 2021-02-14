@@ -4,8 +4,6 @@ This file is used to list changes made in each version of the vscode cookbook.
 
 ## Unreleased
 
-- Testing stuff
-
 ## 1.0.4 - *2020-12-02*
 
 - resolved cookstyle error: resources/installer.rb:39:7 warning: `Chef/Deprecations/DeprecatedYumRepositoryActions`
