@@ -1,3 +1,5 @@
+unified_mode true
+
 include Vscode::Helper
 
 signing_key = 'https://packages.microsoft.com/keys/microsoft.asc'

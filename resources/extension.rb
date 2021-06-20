@@ -1,3 +1,4 @@
+unified_mode true
 property :extension_name, String, name_property: true
 property :user,           String, required: true
 property :home_dir,       String, default: lazy { ::File.expand_path("~#{user}") }
