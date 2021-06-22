@@ -4,6 +4,10 @@ This file is used to list changes made in each version of the vscode cookbook.
 
 ## Unreleased
 
+- Add unified_mode for Chef 17 support
+- Bump minimum Chef verison to 15.3 for unified_mode
+- Add MacOS testing
+
 ## 1.0.6 - *2021-06-18*
 
 ## 1.0.5 - *2021-06-01*
