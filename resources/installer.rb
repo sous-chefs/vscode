@@ -1,5 +1,5 @@
 include Vscode::Helper
-
+unified_mode true
 signing_key = 'https://packages.microsoft.com/keys/microsoft.asc'
 
 action :install do

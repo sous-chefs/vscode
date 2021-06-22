@@ -4,7 +4,7 @@ property :home_dir,       String, default: lazy { ::File.expand_path("~#{user}")
 
 include Vscode::Helper
 
-default_action :install
+unified_mode true
 
 # https://github.com/chef/mixlib-shellout for how to use usernames in shell_out.
 

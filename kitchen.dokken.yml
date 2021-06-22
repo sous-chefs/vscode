@@ -1,13 +1,10 @@
 ---
-
 driver:
   name: dokken
-  # because Docker and SystemD/Upstart
   privileged: true
   env: [CHEF_LICENSE=accept]
 
-transport:
-  name: dokken
+transport: { name: dokken }
 
 provisioner:
   name: dokken
@@ -38,11 +35,6 @@ platforms:
   - name: centos-8
     driver:
       image: dokken/centos-8
-      pid_one_command: /usr/lib/systemd/systemd
-
-  - name: fedora-latest
-    driver:
-      image: dokken/fedora-latest
       pid_one_command: /usr/lib/systemd/systemd
 
   - name: ubuntu-16.04

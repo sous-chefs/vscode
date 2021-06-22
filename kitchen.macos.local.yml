@@ -1,0 +1,13 @@
+---
+provisioner:
+  name: chef_zero
+  install_strategy: skip
+  channel: current
+
+platforms:
+  - name: macos
+    driver:
+      box: damacus/macos-10.15.4
+      provider: parallels
+      linked_clone: true
+      gui: false
